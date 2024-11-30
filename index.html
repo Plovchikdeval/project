@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модели ИИ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        h2 {
+            color: #444;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .model-list {
+            margin-left: 20px;
+        }
+        .category {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+        .model-name {
+            font-weight: bold;
+        }
+        .text-model {
+            color: #3498db;
+        }
+        .image-model {
+            color: #e67e22;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Список Моделей ИИ</h1>
+</header>
+
+<div class="container">
+    <h2>Модели OpenAI</h2>
+    <ul class="model-list">
+        <li><span class="model-name text-model">gpt-3</span>: Базовая языковая модель третьего поколения OpenAI.</li>
+        <li><span class="model-name text-model">gpt-3.5-turbo</span>: Быстрая и оптимизированная версия GPT-3.5.</li>
+        <li><span class="model-name text-model">gpt-4</span>: Продвинутая версия GPT-4, обеспечивающая лучшую точность.</li>
+        <li><span class="model-name text-model">gpt-4o</span>: Оптимизированная версия GPT-4 для меньшего потребления ресурсов.</li>
+        <li><span class="model-name text-model">gpt-4o-mini</span>: Мини-версия GPT-4o, предназначенная для малых систем.</li>
+        <li><span class="model-name text-model">gpt-4-turbo</span>: Ускоренная версия GPT-4 с меньшими затратами на вычисления.</li>
+        <li><span class="model-name image-model">dalle-3</span>: Генерация изображений на основе текстовых запросов.</li>
+    </ul>
+
+    <h2>Модели Meta</h2>
+    <ul class="model-list">
+        <li><span class="model-name text-model">llama-2-7b</span>: Модель LLaMA второго поколения с 7 миллиардов параметров.</li>
+        <li><span class="model-name text-model">llama-3-8b</span>: Модель третьего поколения с 8 миллиардами параметров.</li>
+        <li><span class="model-name text-model">llama-3.1-8b</span>: Модель для обработки сложных текстовых задач.</li>
+        <li><span class="model-name text-model">llama-3.1-70b</span>: Мощная модель LLaMA третьего поколения с 70 миллиардами параметров.</li>
+        <li><span class="model-name text-model">llama-3.1-405b</span>: Модель с 405 миллиардами параметров для самых сложных задач.</li>
+        <li><span class="model-name text-model">codellama-34b</span>: Оптимизирована для задач программирования и кода.</li>
+    </ul>
+
+    <h2>Модели Mistral</h2>
+    <ul class="model-list">
+        <li><span class="model-name text-model">mixtral-7b</span>: Модель с 7 миллиардами параметров для широкого спектра задач.</li>
+        <li><span class="model-name text-model">mixtral-8x7b</span>: Мощная модель с улучшенной производительностью.</li>
+        <li><span class="model-name text-model">mistral-tiny</span>: Легковесная модель для малых систем.</li>
+    </ul>
+
+    <h2>Модели NousResearch</h2>
+    <ul class="model-list">
+        <li><span class="model-name text-model">hermes-2-dpo</span>: Модель Hermes 2 для задач глубокого обучения.</li>
+        <li><span class="model-name text-model">hermes-2-pro</span>: Оптимизированная версия модели Hermes 2.</li>
+        <li><span class="model-name text-model">hermes-3</span>: Расширенная версия модели Hermes с улучшенной точностью.</li>
+    </ul>
+
+    <h2>Модели Google DeepMind</h2>
+    <ul class="model-list">
+        <li><span class="model-name text-model">gemini</span>: Модель для обработки различных текстовых запросов.</li>
+        <li><span class="model-name text-model">gemini-pro</span>: Усовершенствованная версия Gemini с дополнительными функциями.</li>
+        <li><span class="model-name text-model">gemini-flash</span>: Быстрая и легкая версия модели Gemini.</li>
+    </ul>
+
+    <h2>Модели Stability AI</h2>
+    <ul class="model-list">
+        <li><span class="model-name image-model">sdxl</span>: Модель для генерации изображений с высоким качеством.</li>
+        <li><span class="model-name image-model">sd-3</span>: Генерация изображений с использованием Stable Diffusion.</li>
+    </ul>
+
+    <h2>Модели Flux AI</h2>
+    <ul class="model-list">
+        <li><span class="model-name image-model">flux</span>: Модель для создания изображений с уникальными стилями.</li>
+        <li><span class="model-name image-model">flux-pro</span>: Модель с улучшенной производительностью для создания изображений.</li>
+        <li><span class="model-name image-model">flux-anime</span>: Модель для создания изображений в стиле аниме.</li>
+        <li><span class="model-name image-model">flux-3d</span>: Генерация 3D-изображений с высокими деталями.</li>
+        <li><span class="model-name image-model">flux-disney</span>: Создание изображений в стиле Disney.</li>
+    </ul>
+
+    <footer>
+        <p>&copy; 2024 Модели ИИ</p>
+    </footer>
+</div>
+
+</body>
+</html>
